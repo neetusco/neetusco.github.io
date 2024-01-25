@@ -99,23 +99,29 @@ The member took more rides constituting 64% of the total rides compared to the c
 
          
 
+![image](https://github.com/neetusco/neetusco.github.io/assets/157532904/945e9d27-792b-46c7-8be3-8e1bb8e5a569)
 
 
 
 
 
-3)	Number of rides by bike type
+2)	Number of rides by bike type
    
 Both types of customers prefer classic and electric bikes constituting 51% and 47% of the total bike rides compared to docked bikes which are tried by very few (~1%) casual riders only.
 
-    
 
-5)	Number of rides taken by day of the weeks
+![image](https://github.com/neetusco/neetusco.github.io/assets/157532904/f97e75fb-4f5d-451c-a42d-d9a169fd22a1)
+
+
+
+
+3)	Number of rides taken by day of the weeks
    
 Members took maximum rides on Tuesday, Wednesday, and Thursday whereas casual riders used it mostly on weekends.
   
 
 
+![image](https://github.com/neetusco/neetusco.github.io/assets/157532904/2930dbf4-0019-4988-959f-f26b32bc785b)
 
 
 
@@ -129,15 +135,19 @@ Members took maximum rides on Tuesday, Wednesday, and Thursday whereas casual ri
 
 
 
-7)	Number of rides taken by hour of the day
+4)	Number of rides taken by hour of the day
    
 Member riders used bikes at office peak hours (8 am & 5 pm) and casual riders usage increased during the daytime, peaking at 5 pm 
-  
 
-9)	Number of rides taken by month
+  ![image](https://github.com/neetusco/neetusco.github.io/assets/157532904/75fdf7ea-3981-46a8-b108-982f538a97db)
+
+
+5)	Number of rides taken by month
     
 Both types of riders typically use Cyclists bikes during the month of summer in June, July, and August
   
+![image](https://github.com/neetusco/neetusco.github.io/assets/157532904/640c06e7-ff47-47e2-8643-48bcd9da87e8)
+
 
 Act
 
