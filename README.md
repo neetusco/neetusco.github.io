@@ -63,7 +63,7 @@ The following steps are used in combining the 12 files into one table:
 3.	Used the SQL code to create a new table ‘combined_2023’ by combining all 12 tables. [SQL code for combining data](https://github.com/neetusco/neetusco.github.io/blob/main/table_union.sql)
 4.	The new table includes 5,719,877 rows and 13 columns
 
-The following steps are used in further exploring, cleaning, and manipulating the data [SQL code for processing data](https://github.com/neetusco/neetusco.github.io/blob/main/Data_Processing.sql)
+The following steps are used in further exploring, cleaning, and manipulating the data. [SQL code for processing data](https://github.com/neetusco/neetusco.github.io/blob/main/Data_Processing.sql)
 
 1.	Checked the column name and their data typede_id
 2.	Column rideable_type has 3 unique values: classic, docked, and electric
@@ -77,7 +77,7 @@ The following steps are used in further exploring, cleaning, and manipulating th
 
 ## Analyze 
 
-The following calculations are done as a part of the descriptive analysis and to compare how member riders and casual riders used Cyclistic bike-sharing rides differently in SQL [SQL codes for Data analysis](https://github.com/neetusco/neetusco.github.io/blob/main/Data_Analysis.sql). 
+The following calculations are done as a part of the descriptive analysis and to compare how member riders and casual riders used Cyclistic bike-sharing rides differently in SQL. [SQL codes for analysing data](https://github.com/neetusco/neetusco.github.io/blob/main/Data_Analysis.sql). 
 
 1.	Total number of rides taken
 2.	Average of the ride _length
