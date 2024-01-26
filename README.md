@@ -70,8 +70,8 @@ The following steps are used in further exploring, cleaning, and manipulating th
 3.	Column member_casual has 2 unique values: member and casual
 4.	Few missing values found for station name columns however, ride_id, rideable_type, started_at, ended_at, and member_casual columns have no missing values so no rows deleted
 5.	No duplicates found as all the ride_id values are unique
-6.	Added 3 new columns - ride_length, ride_day and month
-7.	Deleted trips with ride_duration having 0 or negative values 
+6.	Added 3 new columns - ride_length, ride_day, month and ride_start_time
+7.	Created new table by deleted trips with ride_duration having 0 or negative values and only keeping the required columns
 8.	Total 88,950 rows deleted
 9.	Total rows or total trips- 5,630,927
 
@@ -79,16 +79,13 @@ The following steps are used in further exploring, cleaning, and manipulating th
 
 The following calculations are done as a part of the descriptive analysis and to compare how member riders and casual riders used Cyclistic bike-sharing rides differently in SQL. [SQL codes for analysing data](https://github.com/neetusco/neetusco.github.io/blob/main/Data_Analysis.sql). 
 
-1.	Total number of rides taken
-2.	Average of the ride _length
-3.	Maximum value of the ride _length
-4.	Mode of the ride_day
-5.	Number of rides by customer type
-6.	Average of the ride _length by customer type
-7.	Number of rides by bike type
-8.	Number of rides taken by day of the week
-9.	Number of rides taken by month
-10.	Number of rides taken by hour of the day
+1.	Total number of rides, average of ride_length and maximum value of ride_length
+2.	Mode of the ride_day
+3.	Total rides of member and Casual customer type by ride type
+4.	Total number of rides, average of ride_length and maximum value of ride_length by customer type (member_casual)
+5. Total number of rides, average of ride_length of member and casual customer type by ride_day
+6.	Total number of rides, average of ride_length of member and casual customer type by Month
+7.	Total number of rides, average of ride_length of member and casual customer type by start_time
 
 ## Share
 
