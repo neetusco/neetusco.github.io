@@ -44,10 +44,21 @@ FROM
 
 ## Adding month Column
 
-ALTER TABLE new_table
+ALTER TABLE Combined_2023
 ADD COLUMN Month
 GENERATED ALWAYS AS(case strftime('%m', date(started_at)) when '01' then 'January' when '02' then 'Febuary' when '03' then 'March' when '04' then 'April' when '05' then 'May' when '06' then 'June' when '07' then 'July' when '08' then 'August' when '09' then 'September' when '10' then 'October' when '11' then 'November' when '12' then 'December' else '' end)
 
 ## Adding column ride_length
+SELECT 
+  ride_id,
+  ROUND((JULIANDAY(ended_at) - JULIANDAY(started_at))*3600) AS ride_length
+FROM 
+  Combined_2023
+  
+## Adding column ride_day
 
-## adding column ride_day
+ALTER TABLE Combined_2023
+ADD COLUMN ride_day
+GENERATED ALWAYS AS(case strftime('%w', date(started_at)) when '0' then 'Sunday' when '1' then 'Monday' when '2' then 'Tuesday' when '3' then 'Wednesday' when '4' then 'Thursday' when '5' then 'Friday' when '6' then 'Saturday' else '' end)
+
+## Creating new table with added column and deleting rows not required
