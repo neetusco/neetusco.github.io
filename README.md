@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The cyclistic bike-share analysis case study is a Capstone Project of the Google Data Analytics Certificate course. Six steps of data analysis have benn followed in this project: Ask, Prepare, Process, Analyze, Share, and Act to answer the business question of a hypothetical scenario. SQL is used to process and analyze the data and Tableau is used to visualize it.
+The cyclistic bike-share analysis case study is a Capstone Project of the Google Data Analytics Certificate course. Six steps of data analysis have been followed in this project: Ask, Prepare, Process, Analyze, Share, and Act to answer the business question of a hypothetical scenario. SQL is used to process and analyze the data and Tableau is used to visualize it.
 
 ## Scenario
 
@@ -33,7 +33,7 @@ The below analysis is done to answer the first question: **How do annual members
 
 ### Data Source
 
-In this project, Cyclistic’s historical trip data is analyzed to identify trends from Jan 2023 to Dec 2023. The data can be downloaded from divvy_tripdata and has been made available by Motivate International Inc. under this license. The data is appropriate to explore how different customer types are using Cyclistic bikes. But note that data privacy issues prohibit using riders’ personally identifiable information, so connecting pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes is not possible.
+In this project, Cyclistic’s historical trip data is analyzed to identify trends from Jan 2023 to Dec 2023. The data can be downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) and has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). The data is appropriate to explore how different customer types are using Cyclistic bikes. But note that data privacy issues prohibit using riders’ personally identifiable information, so connecting pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes is not possible.
 
 ### Data Organization 
 
@@ -71,7 +71,7 @@ The following steps are used in further exploring, cleaning, and manipulating th
 4.	Few missing values found for station name columns however, ride_id, rideable_type, started_at, ended_at, and member_casual columns have no missing values so no rows deleted
 5.	No duplicates found as all the ride_id values are unique
 6.	Added 3 new columns - ride_length, ride_day, month and ride_start_time
-7.	Created new table by deleted trips with ride_duration having 0 or negative values and only keeping the required columns
+7.	Created new table by deleting trips with ride_duration having 0 or negative values and only keeping the required columns
 8.	Total 88,950 rows deleted
 9.	Total rows or total trips- 5,630,927
 
