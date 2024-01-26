@@ -62,3 +62,19 @@ ADD COLUMN ride_day
 GENERATED ALWAYS AS(case strftime('%w', date(started_at)) when '0' then 'Sunday' when '1' then 'Monday' when '2' then 'Tuesday' when '3' then 'Wednesday' when '4' then 'Thursday' when '5' then 'Friday' when '6' then 'Saturday' else '' end)
 
 ## Creating new table with added column and deleting rows not required
+
+CREATE TABLE new_combined_2023 AS
+SELECT
+  ride_id,
+  rideable_type,
+  started_at,
+  ended_at,
+  ride_day,
+  ride_length,
+  Month,
+  member_casual
+FROM
+  Combined_2023
+WHERE
+  ride_length>0
+  
